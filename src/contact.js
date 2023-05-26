@@ -1,3 +1,5 @@
+import restaurantImage from './assets/images/jason-leung-poI7DelFiVA-unsplash.jpg'
+
 export function contact() {
     const contentDiv = document.querySelector("#content");
 
@@ -13,7 +15,7 @@ export function contact() {
     //DOM for Phone Image
     const phoneImage = document.createElement("img");
     phoneImage.classList.add("top-image");
-    phoneImage.src = "../src/assets/images/jason-leung-poI7DelFiVA-unsplash.jpg"
+    phoneImage.src = restaurantImage;
     phoneImage.alt = "Image of phone 1";
     contentDiv.appendChild(phoneImage);
 
@@ -25,7 +27,7 @@ export function contact() {
     //DOM for Phone Image
     const emailImage = document.createElement("img");
     emailImage.classList.add("top-image");
-    emailImage.src = "../src/assets/images/jason-leung-poI7DelFiVA-unsplash.jpg"
+    emailImage.src = restaurantImage;
     emailImage.alt = "Image of email 2";
     contentDiv.appendChild(emailImage);
 

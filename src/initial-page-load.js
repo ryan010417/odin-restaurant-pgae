@@ -1,3 +1,5 @@
+import restaurantImage from './assets/images/jason-leung-poI7DelFiVA-unsplash.jpg'
+
 export function initialPageLoad() {
     const contentDiv = document.querySelector("#content");
 
@@ -13,7 +15,7 @@ export function initialPageLoad() {
     //DOM for Food 1
     const topImage = document.createElement("img");
     topImage.classList.add("top-image");
-    topImage.src = "../src/assets/images/jason-leung-poI7DelFiVA-unsplash.jpg"
+    topImage.src = restaurantImage;
     topImage.alt = "Image of food 1";
     contentDiv.appendChild(topImage);
 

@@ -1,3 +1,5 @@
+import restaurantImage from './assets/images/jason-leung-poI7DelFiVA-unsplash.jpg'
+
 export function menu() {
     const contentDiv = document.querySelector("#content");
 
@@ -13,7 +15,7 @@ export function menu() {
     //DOM for Food 1
     const topImage = document.createElement("img");
     topImage.classList.add("top-image");
-    topImage.src = "../src/assets/images/jason-leung-poI7DelFiVA-unsplash.jpg"
+    topImage.src = restaurantImage;
     topImage.alt = "Image of food 1";
     contentDiv.appendChild(topImage);
 
@@ -25,7 +27,7 @@ export function menu() {
     // DOM for food 2
     const topImage2 = document.createElement("img");
     topImage2.classList.add("top-image");
-    topImage2.src = "../src/assets/images/jason-leung-poI7DelFiVA-unsplash.jpg"
+    topImage2.src = restaurantImage;
     topImage2.alt = "Image of food 2";
     contentDiv.appendChild(topImage2);
 
@@ -37,7 +39,7 @@ export function menu() {
     // DOM for food 3
     const topImage3 = document.createElement("img");
     topImage3.classList.add("top-image");
-    topImage3.src = "../src/assets/images/jason-leung-poI7DelFiVA-unsplash.jpg"
+    topImage3.src = restaurantImage;
     topImage3.alt = "Image of food 3";
     contentDiv.appendChild(topImage3);
 
